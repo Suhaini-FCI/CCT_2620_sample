@@ -1,0 +1,219 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Header */
+header {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #455a64;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main Content */
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+
+/* Headings */
+h2 {
+    color: #263238;
+}
+
+
+/* Career List */
+.career-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.career-list li {
+    background-image: url("bullet.gif");
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: left center;
+
+    padding-left: 45px;
+    min-height: 35px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* Form */
+form {
+    width: 100%;
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* Checkboxes */
+.checkbox-group label {
+    font-weight: normal;
+}
+
+.checkbox-group input {
+    width: auto;
+    margin-right: 8px;
+}
+
+
+/* Submit Button */
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #263238;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #455a64;
+}
+
+
+/* Footer */
+footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    main {
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .career-list li {
+        padding-left: 45px;
+    }
+}
+
+/* Table */
+table {
+    width: 80%;
+    max-width: 1000px;
+    margin: 25px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #263238;
+    color: white;
+}
+
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,21 @@
+/* style.css */
+
+/* Header cell */
+.atas {
+    background-color: lightblue;
+}
+
+/* Navigation panel cell */
+.kiri {
+    background-color: lightyellow;
+}
+
+/* Content area cell */
+.content {
+    background-color: lightgreen;
+}
+
+/* Footer cell */
+.bawah {
+    background-color: lightgray;
+}
